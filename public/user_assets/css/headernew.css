@@ -1,0 +1,340 @@
+.new-test-page {
+    min-height: 50vh;
+    background-color: #b8b8b8;
+}
+.header-new {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    /* display: none; */
+}
+.header-first-strip {
+    background-color: #000;
+    padding: 4px 0;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 16px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    font-weight: 300;
+    top: 0;
+    z-index: 10;
+    font-family: 'Apercu Pro', sans-serif;
+}
+.header-first-strip b{
+    font-weight: 600;
+}
+.header-new {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 32px;
+    z-index: 10;
+    /* border-bottom: 1px solid #871333; */
+    opacity: 1 !important;
+    padding: 10px 30px;
+    /* background-color: rgba(0,0,0,0.3); */
+}
+.button-blue-taboo {
+    background-color: rgba(255,255,255,0.4);
+    padding: 6px 25px;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: 'Apercu Pro', sans-serif;
+}
+.header-new  .logo {
+    height: 58px;
+    padding: 0;
+}
+.header-new .menu-btn {
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+.header-new .menu-btn img {
+    height: 23px;
+    width: 30px;
+}
+.side-bar {
+    display: none;
+    height: 100vh;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    padding: 10px;
+    z-index: 10000;
+    overflow: auto;
+}
+.side-bar {
+    display: block!important;
+    right: -400px;
+    transition: all ease-in-out .8s;
+}
+.side-bar.show_side_bar_with_animation {
+    right: 0;
+}
+.show_side_bar_with_animation {
+    display: block;
+}
+.side-bar .close_button {
+    background-color: transparent;
+    border: none !important;
+    box-shadow: none !important;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    padding: 0;
+}
+.side-bar .close_button img {
+    height: 18px;
+}
+.side-bar .header-black-logo {
+    height: 40px;
+    margin-bottom: 10px;
+}
+.side-bar .menu-banner {
+    width: 100%;
+}
+.side-bar .main_menu ul{
+    margin-top: 10px;
+}
+.side-bar .main_menu ul li {
+    list-style-type: none;
+    color: #000;
+    margin: 12px 25px;
+    position: relative;
+    padding-left: 55px;
+    cursor: pointer;
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+.side-bar .main_menu ul li a {
+    color: #000;
+    text-decoration: none!important;
+}
+.side-bar .main_menu ul li h3 {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: 'Apercu Pro', sans-serif;
+    /* margin-bottom: 0; */
+}
+.side-bar .main_menu ul li .arrow_side {
+    width: 10%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+.side-bar .main_menu ul li .arrow_side img {
+    height: 20px;
+}
+.side-bar .main_menu ul li:hover .arrow_side {
+    width: 30%;
+    justify-content: left;
+    transition: all ease-in-out .8s;
+}
+.header-new{
+    transition: all ease-in-out .5s;
+    /* height: 0; */
+}
+.header-new.scroll-show {
+    display: flex;
+    height: auto;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.footer-new {
+    background-color: #000;
+    padding: 40px 0;
+}
+.footer-logo-box .logo {
+    height: 50px;
+    padding: 0;
+}
+.footer-logo-box{
+
+}
+.footer-logo-box h4 {
+    text-transform: uppercase;
+    color: #fff;
+    margin: 30px 0;
+    font-size: 18px;
+    font-family: 'Apercu Pro', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.footer-logo-box h4 b{
+    font-weight: 800;
+}
+.social-links-new{
+    margin-bottom: 10px;
+}
+.social-links-new a {
+    text-decoration: none !important;
+    display: inline-block;
+    margin: 0 20px;
+    font-family: 'Apercu Pro', sans-serif;
+}
+.social-links-new img {
+    height: 30px;
+}
+.new-quick-link{
+
+}
+.new-quick-link ul {
+    padding: 0;
+    margin: 0;
+}
+.new-quick-link li {
+    list-style: none;
+    text-align: left;
+}
+.new-quick-link a {
+    color: #fff !important;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1.4px;
+    min-width: 190px;
+    padding: 2px 10px;
+    border-radius: 30px;
+    transition: all ease-in-out .5s;
+    cursor: pointer;
+    font-family: 'Apercu Pro', sans-serif;
+}
+
+.new-quick-link a:hover,
+.new-quick-link a:focus,
+.new-quick-link a:active{
+    /* background-color: #fff !important; */
+    color: #9B7B4A !important;
+}
+
+.new-quick-link .form-control {
+    margin: 2px 0px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 0;
+    max-width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    padding-right: 40px;
+    font-family: 'Apercu Pro', sans-serif;
+}
+
+.new-quick-link .form-control::placeholder{
+    color: #fff;
+}
+.email-outer{
+    position: relative;
+}
+.email-outer button {
+    position: absolute;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    top: 5px;
+    padding: 0 10px;
+    right: 0;
+}
+.email-outer button img {
+    height: 22px;
+}
+.w3m-overlay.w3m-active{
+    position: relative;
+    z-index: 1000;
+}
+.web3modal-modal-lightbox {
+    z-index: 110;
+  }
+  #WEB3_CONNECT_MODAL_ID .web3modal-modal-lightbox {
+    z-index: 110;
+  }
+  #w3m-modal {
+    pointer-events: auto;
+    z-index: 10000 !important;
+}
+
+@media (max-width: 768px){
+    .header-first-strip {
+        font-size: 12px;
+    }
+    .header-new  .logo {
+        height: 32px;
+    }
+    .header-new {
+        top: 25px;
+        padding: 5px 10px;
+    }
+    .header-new .menu-btn img {
+        height: 20px;
+        width: 26px;
+    }
+    .side-bar {
+        /* width: 100%; */
+    }
+    .side-bar .main_menu ul li h3 {
+        font-size: 14px;
+    }
+    .side-bar .main_menu ul li h3 {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .side-bar .close_button {
+        left: 10px;
+        top: 10px;
+    }
+    .footer-logo-box .logo {
+        height: 32px;
+    }
+    .footer-logo-box h4 {
+        margin: 15px 0;
+        font-size: 14px;
+    }
+    .new-quick-link a {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .new-quick-link li {
+        text-align: center;
+    }
+    .side-bar .main_menu ul li .arrow_side img {
+        height: 16px;
+    }
+    .button-blue-taboo{
+        padding: 4px 20px;
+    }
+}
+@media (max-width:400px){
+    .side-bar {
+        width: 100%;
+    }
+}

@@ -1,0 +1,89 @@
+
+.individual-modal{
+    margin: 20px 25px;
+}
+.individual-modal img{
+    height: 420px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top ;
+}
+.individual-modal .image-shutter{
+    position: relative;
+}
+.individual-modal .image-shutter .shutter-section li{
+    display: none;
+}
+.individual-modal .image-shutter .shutter-section {
+    content: '';
+    display: block;
+    position: absolute;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+.individual-modal .image-shutter .shutter-section li{
+    content: '';
+    /* position: absolute;s */
+    display: block;
+    background: #000;
+    height: 20%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    color: transparent;
+}
+.individual-modal .image-shutter .shutter-section li:hover{
+    opacity: 0;
+}
+.individual-modal .inner-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+    position: relative;
+}
+.individual-modal .inner-content h3{
+    background-color: #000;
+    padding: 5px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #f9f7f7;
+    font-weight: 300;
+    display: inline-block;
+    margin-bottom: 0;
+    letter-spacing: 0.9px;
+}
+.individual-modal .inner-content h4{
+    font-size: 18px;
+    line-height: 18px;
+    color: #000;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 0;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+.individual-modal .outer-content{
+    margin: 0px 10px;
+    border-top: 2px solid #000;
+    padding: 15px 0;
+}
+.individual-modal .outer-content .bid-box{
+    background-color: #000;
+    padding: 4px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #a0a0a0;
+    font-weight: 400; 
+    display: inline-block;
+    min-width: 90px;
+    text-align: center;
+}
