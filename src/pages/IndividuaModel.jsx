@@ -4,20 +4,25 @@ import Slider from 'react-slick';
 import { Link } from 'react-router-dom';
 import { Headernew } from '../components/UI/Headernew';
 import { Footernew } from '../components/UI/Footernew';
-
+import HoverObserver from 'react-hover-observer';
 const IndividuaModel = () => {
-    // const magicRef = useRef();
+    // ======== image reveal code start ======== //
+    const [position, setPosition] = useState({  top: 0 });
 
-    // const [position, setPosition] = useState({ left: 0, top: 0 });
+    const handleMouseMove = (e) => {
+        console.log("e", e);
 
-    // const handleMouseMove = (e) => {
-    //   const magicWHalf = magicRef.current.clientWidth / 2;
-    //   setPosition({
-    //     left: e.pageX - magicWHalf,
-    //     top: e.pageY - magicWHalf,
-    //   });
+        setPosition({
+            // left: e.clientX,
+            top: e.clientY,
+        });
+    };
+    // ======== image reveal code end ======== //
+    // const [circlePosition, setCirclePosition] = useState({ x: 0, y: 0 });
+
+    // const handleMouseMoveq = (e) => {
+    //     setCirclePosition({ x: e.clientX, y: e.clientY });
     // };
-
     return (
         <>
             <Headernew />
@@ -60,25 +65,48 @@ const IndividuaModel = () => {
                     </Row>
 
                     <Row>
-                        {/* <Col lg="4">
-                            <div
-                                className="magic"
-                                ref={magicRef}
-                                style={{ position: 'absolute', left: position.left, top: position.top }}
-                            >
-                                {/ Magic content /}
-                            </div>
-                        </Col> */}
+                        <Col lg="4">
+                            <div className=''></div>
+                        </Col>
                         <Col lg="4" md="6">
-                            <div className='individual-modal'>
-                                <div className='image-shutter'>
-                                    <img className="img-fluid" src="user_assets/images/home-new/khloe/khloe4.jpg" alt="" />
 
+
+
+                            {/* <div
+                                className="hover-container"
+                                onMouseMove={handleMouseMoveq}
+                            >
+                                <div
+                                    className="circle"
+                                    style={{ left: `${circlePosition.x}px`, top: `${circlePosition.y}px` }}
+                                >
+                                    <img
+                                        src="../public/user_assets/images/home-new/khloe/khloe.jpg"
+                                        alt="Revealed Image"
+                                        className="revealed-image"
+                                    />
                                 </div>
-                                <div className='inner-content'>
-                                    <h4>Khloe 01</h4>
-                                    <h3>2000 TABOO</h3>
+                            </div> */}
+                            <div className='individual-modal'>
+                                <div
+                                    class="scene"
+                                    onMouseMove={(e) => {
+                                        handleMouseMove(e);
+                                    }}
+                                >
+                                    <div
+                                        className="magic"
+                                        style={{ position: "absolute",  top: position.top, background: "url('../public/user_assets/images/home-new/khloe/khloe1.jpg')    no-repeat fixed" }}
+                                    >
+
+                                    </div>
                                 </div>
+
+
+
+
+
+
                                 <div className='outer-content'>
                                     <div className='row'>
                                         <div className='col-6 text-start'>
@@ -93,7 +121,19 @@ const IndividuaModel = () => {
                                         </div>
                                     </div>
                                 </div>
+                                <div className='inner-content'>
+                                    <h4>Khloe 01</h4>
+                                    <h3>2000 TABOO</h3>
+                                </div>
+
                             </div>
+
+
+
+
+
+
+
                         </Col>
                         <Col lg="4" md="6">
                             <div className='individual-modal'>
