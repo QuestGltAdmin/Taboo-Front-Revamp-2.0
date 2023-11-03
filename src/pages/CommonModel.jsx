@@ -48,7 +48,7 @@ const CommonModel = () => {
                     <Col lg="12">
                         <Slider {...banner}>
                             <div className='slide'>
-                                <img className="" src="user_assets/images/home-new/khloe/khloe.jpg" alt="" />
+                                <img className="" src="user_assets/images/home-new/khloe/khloe5.png" alt="" />
                                 <div className='content-slide'>
                                     <h1>Khloe Terae</h1>
                                     <Link to='/models' className='explore-modal-btn'>Brand Ambassador</Link>
@@ -76,7 +76,7 @@ const CommonModel = () => {
             <div className='welcome-taboo-sec'>
                 <Container>
                     <Row>
-                        <Col md="4">
+                        <Col lg="4" md="6" sm="6">
                             <div className='modal-slider'>
                                 <img className="img-fluid" src="user_assets/images/home-new/Diana7.jpg" alt="" />
                                 <div className='content-welcome'>
@@ -86,7 +86,7 @@ const CommonModel = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col md="4">
+                        <Col lg="4" md="6" sm="6">
 
                             <div className='modal-slider'>
                                 <img className="img-fluid" src="user_assets/images/home-new/jaylenebikini-stills-1.jpg" alt="" />
@@ -97,7 +97,7 @@ const CommonModel = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col md="4">
+                        <Col lg="4" md="6" sm="6">
 
                             <div className='modal-slider'>
                                 <img className="img-fluid" src="user_assets/images/home-new/jaylene-hot-bikini-stills-17.jpg" alt="" />
@@ -108,7 +108,7 @@ const CommonModel = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col md="4">
+                        <Col lg="4" md="6" sm="6">
 
                             <div className='modal-slider'>
                                 <img className="img-fluid" src="user_assets/images/home-new/Natalia-Anderson.jpg" alt="" />
@@ -119,7 +119,7 @@ const CommonModel = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col md="4">
+                        <Col lg="4" md="6" sm="6">
 
                             <div className='modal-slider'>
                                 <img className="img-fluid" src="user_assets/images/home-new/Natalia-Anderson.jpg" alt="" />
@@ -130,7 +130,7 @@ const CommonModel = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col md="4">
+                        <Col lg="4" md="6" sm="6">
 
                             <div className='modal-slider'>
                                 <img className="img-fluid" src="user_assets/images/home-new/Natalia-Anderson.jpg" alt="" />

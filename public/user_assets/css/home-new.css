@@ -1,260 +1,333 @@
-@font-face {
+/* @font-face {
     font-family: 'Apercu Bold';
     src:  url(../Larsseit/Larsseit-BoldItalic.otf) format('otf');
   }
   @font-face {
     font-family: 'Apercu Black';
     src:  url(../Apercu-Font/ApercuPro-Light.ttf) format('ttf');
-  }
-.main-banner-slider{
-        height: 88vh;
-        overflow: hidden;
-        position: relative;
+  } */
+
+  .main-banner-slider{
+    height: 567px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
 }
 .paginate-slider{
-    position: absolute;
-    bottom: 59px;
-    left: 0;
-    z-index: 1;
-    right: 0;
-    color: #fff;
-    text-align: center;
-    margin: auto;
-    font-family: 'Apercu Pro', sans-serif;
+position: absolute;
+bottom: 59px;
+left: 0;
+z-index: 1;
+right: 0;
+color: #fff;
+margin: auto;
+font-family: 'Myriad Pro Regular';
 }
 .main-banner-slider .slick-dots li {
-    width: 13px;
-    z-index: 10;
+width: 13px;
+z-index: 10;
 }
 .main-banner-slider .slick-dots li button:before {
-    border-radius: 10px !important;
-    border: 0.5px solid #FFF !important;
-    background: transparent !important;
-    content: '' !important;
-    opacity: 1 !important;
-    width: 10px !important;
-    height: 10px !important;
+border-radius: 10px !important;
+border: 0.5px solid #FFF !important;
+background: transparent !important;
+content: '' !important;
+opacity: 1 !important;
+width: 10px !important;
+height: 10px !important;
 }
 .main-banner-slider .slick-dots li.slick-active button:before {
-    color: none !important;
-    background: #fff !important;
-    opacity: 1 !important;
+color: none !important;
+background: #fff !important;
+opacity: 1 !important;
 }
 .main-banner-slider .slick-dots {
-    bottom: 30px !important;
+bottom: 30px !important;
 }
 .main-banner-slider img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    object-position: top;
+object-fit: cover;
+width: 100%;
+height: 100%;
+object-position:top center;
+}
+.main-banner-slider .khloe-modal-image{
+object-position: center;
+}
+.main-banner-slider .sparx-model-image{
+object-position: center;
+}
+.main-banner-slider .individual{
+object-fit: contain;
+background-color: #a1a1a1;
+/* background: linear-gradient(180deg, #5b5a5a 0%,#000  100%); */
+/* background: linear-gradient(200deg, #560303 0%, #d29494 100%); */
+    /* background: radial-gradient(   #865663,#8d4358,#871333);
+    /* background: radial-gradient(52.17% 52.17% at 50% 50%, #FF7400 0%, #C50000 100%); */
+    background: radial-gradient(62.5% 62.5% at 50% 50%, #5b5a5a 0%, #000 100%);
 }
 .main-banner-slider .slide{
-    position: relative;
-    height: 88vh;
+position: relative;
+/* height: 88vh; */
+height: 567px;
 }
 .main-banner-slider .content-slide{
-    position: absolute;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 9;
+position: absolute;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+z-index: 9;
 }
 .main-banner-slider .content-slide h1{
-    color: #fff;
-    font-size: 36px;
-    font-weight: 900;
-    line-height: 50px;
-    margin-bottom: 30px;
-    text-transform: uppercase;
-    font-family: 'Apercu Pro', sans-serif;
-    letter-spacing: 3px;
+color: #fff;
+font-size: 36px;
+font-weight: 900;
+line-height: 50px;
+margin-bottom: 30px;
+text-transform: uppercase;
+font-family: 'Apercu Pro';
+letter-spacing: 0.4rem;
+font-style: normal;
 }
 .explore-modal-btn{
-    display: inline-block;
-    background-color: #fff ;
-    color: #000 ;
-    text-decoration: none;
-    padding: 6px 30px;
-    font-size: 17px;
-    line-height: 19px;
-    font-weight: 700;
-    max-width: max-content;
-    border: none;
-    box-shadow: none;
-    text-transform: uppercase;
-    cursor: pointer;
-    min-width: 200px;
-    transition: all ease-in-out .4s;
-    font-family: 'Apercu Pro', sans-serif;
-    letter-spacing: 0.8px;
+display: inline-block;
+background-color: #fff ;
+color: #000 ;
+text-decoration: none;
+padding: 6px 30px;
+font-size: 17px;
+line-height: 19px;
+font-weight: bold;
+max-width: max-content;
+border: none;
+box-shadow: none;
+text-transform: uppercase;
+cursor: pointer;
+min-width: 200px;
+transition: all ease-in-out .4s;
+font-family: 'Apercu Pro Bold';
+letter-spacing: 1px;
 }
 .explore-modal-btn:hover{
-    background-color: #000;
-    color: #fff;
+background-color: #000;
+color: #fff;
 }
 .welcome-taboo-sec{
-    padding: 30px 0 50px 0;
+padding: 30px 0 50px 0;
 }
 .welcome-taboo-sec .welcome-font{
-    text-align: left;
+text-align: left;
 }
 .welcome-taboo-sec .welcome-font h2{
-    color: #000;
-    font-size: 36px;
-    font-weight: 900;
-    line-height: 50px;
-    margin-bottom: 16px;
-    text-transform: uppercase;
-    /* font-family: 'Apercu Pro', sans-serif; */
-    font-family: 'Apercu Pro', sans-serif;
-    letter-spacing: 2.6px;
+color: #000;
+font-size: 36px;
+font-weight: 900;
+line-height: 50px;
+margin-bottom: 16px;
+text-transform: uppercase;
+/* font-family: 'Apercu Pro', sans-serif; */
+font-family: 'Apercu Pro';
+letter-spacing: 0.4rem;
 }
 .welcome-taboo-sec .welcome-font p{
-    color: #717171;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 20px;
-    margin-bottom: 20px;
-    font-family: 'Apercu Pro', sans-serif;
-    letter-spacing: 1px;
+color: #acacac  ;
+font-size: 14px;
+font-weight: normal ;
+line-height: 20px;
+margin-bottom: 20px;
+font-family: 'Apercu Pro Regular';
+letter-spacing: 1px;
 }
 .modal-slider{
-    position: relative;
-    overflow: hidden;
-    width: auto;
-    padding: 10px;
-    height: 500px;
-    margin-bottom: 14px;
+position: relative;
+overflow: hidden;
+max-width: 480px;
+padding: 10px;
+/* 
+height: 500px; */
+margin-bottom: 30px;
 }
 .modal-slider img{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    object-position: top;
+object-fit: cover;
+height: 500px;
+width: 100%;
+object-position: top;
 }
-.modal-slider .content-welcome{
-    bottom: 15%;
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 9;  
-    width: 70%;
+/* .modal-slider .content-welcome{
+bottom: 15%;
+position: absolute;
+top: 65%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+z-index: 9;  
+width: 60%;
+} */
+.modal-slider .content-welcome {
+right: 0;
+bottom: 15%;
+position: absolute;
+/* top: 60%; */
+left: 0;
+/* transform: translate(-50%, -50%); */
+text-align: center;
+z-index: 9;
+margin: auto;
+width: 67%;
 }
 .modal-slider .content-welcome h3{
-    color: #fff;
-    font-size: 30px;
-    text-align: left;
-    font-weight: 800;
-    line-height: 36px;
-    margin-bottom: 30px;
-    text-transform: uppercase; 
-    font-family: 'Apercu Pro', sans-serif;
-    letter-spacing: 3px;     
+color: #fff;
+font-size: 30px;
+text-align: left;
+font-weight: 900;
+line-height: 36px;
+margin-bottom: 30px;
+text-transform: uppercase; 
+font-family: 'Apercu Pro';
+letter-spacing: 3px;     
 }
 .welcome-taboo-sec .slick-arrow.slick-prev,.main-banner-slider .slick-arrow.slick-prev{
-    width: 42px !important;
-    height: 42px !important;
-    opacity: 1;
-    top: auto !important;
-    right: auto !important;
-    left: 43% !important;
-    border-radius: 6px;
-    z-index: 1;
+width: 42px !important;
+height: 42px !important;
+opacity: 1;
+top: auto !important;
+right: auto !important;
+left: 43% !important;
+border-radius: 6px;
+z-index: 1;
 }
 .welcome-taboo-sec .slick-arrow.slick-next {
-    bottom: -63px !important;
+bottom: -63px !important;
 
 }
 .main-banner-slider .slick-arrow.slick-next{
-    bottom: 35px !important;
+bottom: 35px !important;
 
 }
 .welcome-taboo-sec .slick-arrow.slick-prev:before,.main-banner-slider .slick-arrow.slick-prev:before {
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: transparent;
+background-size: 25px;
+background-repeat: no-repeat;
+background-position: center;
+color: transparent;
 }
 .welcome-taboo-sec .slick-arrow.slick-prev:before{
-    background-image: url(../images/home-new/Greaterthan.svg);
-    
+background-image: url(../images/home-new/Greaterthan.svg);
+
 }
 .main-banner-slider .slick-arrow.slick-prev:before{
-    background-image: url(../images/home-new/Greaterthan-w.svg);
+background-image: url(../images/home-new/Greaterthan-w.svg);
 
 }
 .welcome-taboo-sec .slick-arrow.slick-next,.main-banner-slider .slick-arrow.slick-next {
-    width: 42px !important;
-    height: 42px !important;
-    opacity: 1;
-    border-radius: 6px;
-    top: auto !important;
-    right: 43%;
-    z-index: 1;
+width: 42px !important;
+height: 42px !important;
+opacity: 1;
+border-radius: 6px;
+top: auto !important;
+right: 43%;
+z-index: 1;
 }
 .welcome-taboo-sec .slick-arrow.slick-prev {
-    bottom: -63px !important;
+bottom: -63px !important;
 
 }
 .main-banner-slider .slick-arrow.slick-prev{
-    bottom: 35px !important;
+bottom: 35px !important;
 
 }
 .welcome-taboo-sec .slick-arrow.slick-next:before ,.main-banner-slider .slick-arrow.slick-next:before{
-    /* content: '>'; */
-    background-size: 25px;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: transparent;
+/* content: '>'; */
+background-size: 25px;
+background-repeat: no-repeat;
+background-position: center;
+color: transparent;
 }
 .welcome-taboo-sec .slick-arrow.slick-next:before{
-    background-image: url(../images/home-new/Lesserthan.svg);
-    
+background-image: url(../images/home-new/Lesserthan.svg);
+
 }
 .main-banner-slider .slick-arrow.slick-next:before{
-    background-image: url(../images/home-new/Lesserthan-w.svg);
+background-image: url(../images/home-new/Lesserthan-w.svg);
 
+}
+@media (max-width:1400px){
+.modal-slider .content-welcome h3{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.explore-modal-btn {
+    font-size: 15px;
+    line-height: 17px;
+    min-width: 149px;
+}
 }
 @media (max-width:991px){
 .main-banner-slider .slide,
-    .main-banner-slider{
-        height: 60vh;
-    }
-    .main-banner-slider .content-slide h1{
-        font-size: 24px;
-        line-height: 30px;
-        margin-bottom: 14px;
-    }
-    .explore-modal-btn{
-        font-size: 14px;
-        line-height: 16px;
-    }
-    .welcome-taboo-sec .welcome-font h2{
-        font-size: 20px;
-        line-height: 25px;
-    }
-    .modal-slider{
-        height: 300px;
-    }
-    .modal-slider .content-welcome h3{
-        font-size: 18px;
-        line-height: 24px;
-        margin-bottom: 15px;
-    }
-    .welcome-taboo-sec .welcome-font p {
-        text-align: justify;
-    }
+.main-banner-slider{
+    height: 60vh;
+}
+.main-banner-slider.invidual-images .slide,  .main-banner-slider.invidual-images{
+    height: auto;
+}
+.main-banner-slider {
+    margin-top: 24px;
+}
+.main-banner-slider .content-slide h1{
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 14px;
+}
+.explore-modal-btn{
+    font-size: 14px;
+    line-height: 16px;
+    min-width: 149px;   
+}
+.welcome-taboo-sec .welcome-font h2{
+    font-size: 18px;
+    line-height: 25px;
+}
+.modal-slider{
+    height: 400px;
+}
+.modal-slider img{
+    height: 400px;
+}
+.modal-slider .content-welcome h3{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.welcome-taboo-sec .welcome-font p {
+    text-align: justify;
+}
 }
 @media (max-width:768px){
-    .welcome-taboo-sec .slick-arrow.slick-next, .main-banner-slider .slick-arrow.slick-next{
-        right: 34% !important;
-    }
-    .welcome-taboo-sec .slick-arrow.slick-prev, .main-banner-slider .slick-arrow.slick-prev{
-        left: 34% !important;
-    }
+.welcome-taboo-sec .slick-arrow.slick-next, .main-banner-slider .slick-arrow.slick-next{
+    right: 34% !important;
+}
+.welcome-taboo-sec .slick-arrow.slick-prev, .main-banner-slider .slick-arrow.slick-prev{
+    left: 34% !important;
+}
+.explore-modal-btn{
+    min-width: auto;
+}
+.main-banner-slider .khloe-modal-image{
+    object-position: right;
+}
+.main-banner-slider .sparx-model-image{
+    object-position: right;
+}
+.main-banner-slider .slide, .main-banner-slider {
+    height: 50vh;
+}
+/* .modal-slider .content-welcome{
+top: 40%;
+} */
+}
+@media (min-width:1400px){
+.welcome-taboo-sec .welcome-font p{
+    line-height: 18px;
+}
 }

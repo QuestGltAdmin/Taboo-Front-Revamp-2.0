@@ -49,7 +49,7 @@ export const Headernew = () => {
             localStorage.removeItem("date_now");
           }}
         >
-          <h1><img alt="" src="user_assets/images/home-new/Taboo-logoWhite.svg" className="logo" /></h1>
+          <img alt="" src="user_assets/images/home-new/Taboo-logoWhite.svg" className="logo" />
         </Link>
         <div className="play-btn-row">
           <Link to="/" className="button-blue-taboo">
@@ -80,8 +80,8 @@ export const Headernew = () => {
                 <h3>
                   MODELS
                 </h3>
-                <span className='arrow_side'><img alt="" src="user_assets/images/home-new/Lesserthan.svg" /></span>
-              </Link>
+                <span className='arrow_side'><img alt="" src="images/home-new/lessthan.png" className='img-show'/>
+                <img alt="" src="images/home-new/lessthan.png" className='img-hover'/></span></Link>
             </li>
             <li >
               <Link to="" >
@@ -89,8 +89,8 @@ export const Headernew = () => {
                 <h3>
                   SECRETS
                 </h3>
-                <span className='arrow_side'><img alt="" src="user_assets/images/home-new/Lesserthan.svg" /></span>
-              </Link>
+                <span className='arrow_side'><img alt="" src="images/home-new/lessthan.png" className='img-show'/>
+                <img alt="" src="images/home-new/lessthan.png" className='img-hover'/></span> </Link>
             </li>
             <li >
               <Link to="" >
@@ -98,8 +98,8 @@ export const Headernew = () => {
                 <h3>
                   PRIVATE ROOMS
                 </h3>
-                <span className='arrow_side'><img alt="" src="user_assets/images/home-new/Lesserthan.svg" /></span>
-              </Link>
+                <span className='arrow_side'><img alt="" src="images/home-new/lessthan.png" className='img-show'/>
+                <img alt="" src="images/home-new/lessthan.png" className='img-hover'/></span> </Link>
             </li>
 
             <li>
@@ -108,8 +108,8 @@ export const Headernew = () => {
                 <h3>
                   TABOO PUNKS
                 </h3>
-                <span className='arrow_side'><img alt="" src="user_assets/images/home-new/Lesserthan.svg" /></span>
-              </a>
+                <span className='arrow_side'><img alt="" src="images/home-new/lessthan.png" className='img-show'/>
+                <img alt="" src="images/home-new/lessthan.png" className='img-hover'/></span> </a>
             </li>
 
             <li >
@@ -118,8 +118,8 @@ export const Headernew = () => {
                 <h3>
                   PRESS
                 </h3>
-                <span className='arrow_side'><img alt="" src="user_assets/images/home-new/Lesserthan.svg" /></span>
-              </Link>
+                <span className='arrow_side'><img alt="" src="images/home-new/lessthan.png" className='img-show'/>
+                <img alt="" src="images/home-new/lessthan.png" className='img-hover'/></span> </Link>
             </li>
             <li>
               <a href="" target="_blank">
@@ -127,8 +127,8 @@ export const Headernew = () => {
                 <h3>
                   BUY / STAKE TABOO
                 </h3>
-                <span className='arrow_side'><img alt="" src="user_assets/images/home-new/Lesserthan.svg" /></span>
-              </a>
+                <span className='arrow_side'><img alt="" src="images/home-new/lessthan.png" className='img-show'/>
+                <img alt="" src="images/home-new/lessthan.png" className='img-hover'/></span></a>
             </li>
             <li>
               <a href="" target="_blank">
@@ -136,8 +136,8 @@ export const Headernew = () => {
                 <h3>
                   BECOME A MODEL
                 </h3>
-                <span className='arrow_side'><img alt="" src="user_assets/images/home-new/Lesserthan.svg" /></span>
-              </a>
+                <span className='arrow_side'><img alt="" src="images/home-new/lessthan.png" className='img-show'/>
+                <img alt="" src="images/home-new/lessthan.png" className='img-hover'/></span> </a>
             </li>
 
 

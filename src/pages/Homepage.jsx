@@ -75,6 +75,7 @@ const Homepage = () => {
                         <Slider {...banner}>
                             <div className='slide'>
                                 <img className="" src="user_assets/images/home-new/Diana7.jpg" alt="" />
+                                {/* <img className="individual" src="user_assets/images/home-new/Diana7.jpg" alt="" /> */}
                                 <div className='content-slide'>
                                     <h1>Introducing Diana</h1>
                                     <Link to='/models' className='explore-modal-btn'>Explore Diana</Link>
@@ -131,7 +132,7 @@ const Homepage = () => {
                                     <div className='content-welcome'>
                                         <h3>TABOO MODEL <br></br>
                                             KHLOE</h3>
-                                        <a className='explore-modal-btn'>Explore KHLOE</a>
+                                        <a href='/models' className='explore-modal-btn'>Explore KHLOE</a>
                                     </div>
                                 </div>
                             

@@ -11,6 +11,7 @@ import Homepage from './pages/Homepage';
 import IndividuaModel from './pages/IndividuaModel';
 import CommonModel from './pages/CommonModel';
 import { Test } from './pages/Test';
+import SparxModel from './pages/SparxModel';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/test" element={<Test />} />
           <Route path="/Khloe" element={<IndividuaModel />} />
+          <Route path="/CJ-Sparx" element={<SparxModel />} />
           <Route path="/models" element={<CommonModel />} />
         </Routes>
       </BrowserRouter>
